@@ -2,7 +2,7 @@
 
 namespace FilmesApi.Migrations
 {
-    public partial class CriandoTabelaFilme : Migration
+    public partial class CriandoTabelaDeFilme : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace FilmesApi.Data.Dto
+namespace FilmesApi.Data.Dto.Filme
 {
-    public class CreateFilmeDto
+    public class UpdateFilmeDto
     {
         public string Titulo { get; set; }
         [Required(ErrorMessage = "O campo diretor é obrigatório")]
